@@ -9,9 +9,10 @@ const [age, setAge]   = useState("");
 const handleSubmit =(e)=>{
  e.preventdefault()
   if(name && email && age )
-    alert("Voila, you did it ${name}! Your age is ${email} and your email is ${age}.")
+ 
+    window.alert("Voila, you did it ${name}! Your age is ${email} and your email is ${age}.")
   else
-    alert("Please fill proper info")
+    window.alert("Please fill proper info")
     
 }
   
